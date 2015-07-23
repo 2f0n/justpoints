@@ -1,0 +1,18 @@
+uuid: 282f3386-d11b-4d2e-a900-d0bc3c157bfb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Opportunity
+type: opportunity
+description: 'An event whose outcome "makes or breaks" a campaign.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
